@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <b>
+                enter your marks
+            </b>
+        </legend>
+        <form action="/action_page.php"
+            oninput = "x.value=(parseInt(m1.value)+parseInt(m2.value)+parseInt(m3.value))/3" >
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" required>namebr
+            <br><br>
+            <label>Enter marks</label><br>
+            <select name="Subject" id="Subject">
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="English">English</option>
+            </select>
+            <input type="number" id="m1" name="m1"><br><br>
+            <select name="Subject2" id="subject2">
+                
+            </select>
+        </form>
+    </fieldset>
+</body>
+</html>
